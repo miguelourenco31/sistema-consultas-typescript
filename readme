@@ -1,0 +1,66 @@
+Sistema de Consultas Médicas em TypeScript
+Projeto desenvolvido em TypeScript puro (.ts) com foco na modelagem de domínio e nas regras de negócio de um sistema de marcação de consultas médicas.
+
+Objetivo do Projeto
+Desenvolver a estrutura e as funcionalidades principais de um sistema de consultas médicas utilizando exclusivamente TypeScript.
+
+O projeto aplica conceitos importantes da linguagem como tipagem forte, interfaces, tipos personalizados e organização de código.
+
+Entidades Modeladas
+O sistema contempla as seguintes entidades:
+
+Médicos
+Especialidades
+Pacientes
+Consultas
+Usuário Administrador
+Estrutura do Projeto
+sistema-consultas-typescript/
+
+src/
+
+types/
+
+especialidade.ts
+paciente.ts
+statusConsulta.ts
+interfaces/
+
+medico.ts
+consulta.ts
+usuarioAdmin.ts
+index.ts
+
+dist/
+
+tsconfig.json
+
+Funcionalidades Implementadas
+O sistema permite:
+
+Criar consultas
+Confirmar consultas
+Cancelar consultas
+Impedir cancelamento de consultas já realizadas
+Listar consultas por status
+Listar consultas futuras
+Calcular faturamento das consultas realizadas
+Exibir dados formatados em português (data e moeda)
+Tecnologias Utilizadas
+TypeScript
+Node.js
+Como Executar o Projeto
+Compilar o projeto
+tsc
+Executar o sistema
+node dist/index.js
+Conceitos de TypeScript Aplicados
+Type Aliases (type)
+Interfaces (interface)
+Union Types
+Propriedades opcionais (?)
+Tipagem de arrays
+Object Spread (...)
+Strict Mode ativado
+Integrante
+Miguel Marques Lourenço De Souza - RM555426
